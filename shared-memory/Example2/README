@@ -1,0 +1,8 @@
+Write a program to create 5 process p1, p2, p3, p4 and p5, send data through msg queue from p1, p2, p3, p4, p5, to process P6.Then collect all the messages in P6, send it to P7 using shared memory and save the content into a file in P7.
+STEP :1
+we have a all_1to5.sh file we execute the one shell program(all_1to5.sh) to execute all process1 to process 5.
+Execute :./all_1to5.sh
+STEP :2
+Execute :gcc process6.c -lrt ;//execute like this
+STEP :3
+Execute :gcc process7   
