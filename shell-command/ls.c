@@ -1,3 +1,10 @@
+/*****************************************/
+/* Author       : Navin kumar.N          */
+/* Date         : 25-01-2019             */
+/* Filename     : READMI.txt             */
+/* Description  : ls.c file  In " LS "   */
+/*****************************************/
+
 #include  "header.h"
 
 struct dirent *data;
