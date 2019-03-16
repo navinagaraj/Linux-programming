@@ -1,12 +1,12 @@
 /******************************************/
 /* Author	: Navin kumar.N           */
 /* Date		: 13-3-2019               */
-/* Filename	: UNAME  		  */
+/* Filename	: basicinfo.h  		  */
 /* Description	: Details of PC           */
 /******************************************/
 
-#ifndef UNAME_H
-#define UNAME_H
+#ifndef BASICINFO_H
+#define BASICINFO_H
 
 
 /* Included header files */
@@ -29,5 +29,5 @@
 
 /* user defined datatype definitions */
 
-#endif //UNAME
+#endif //BASICINFO_H
  
