@@ -5,24 +5,17 @@ int main(){
 	int open_fd,dup_fd,a,b,retur,data;
 	ssize_t read_fd,write_fd,close_fd,fd;
 
-	open_fd = open("./sample.txt", O_RDWR|O_APPEND);i//open and possibly create a file//
+	open_fd = open("./sample.txt", O_RDWR|O_APPEND);//open and possibly create a file//
 	perror("open");
 	dup_fd  = dup(open_fd);// duplicate a file descriptor//
 	perror("dup");
 
-	fd = fork();// create a child process//
-	if(fd > 0){
-		printf("I am Parent\n");
-		 }
-	else if(fd == 0){
 	write_fd = write(open_fd, w_buffer, strlen(w_buffer));
 	printf("%ld\n",write_fd);
 	write_fd = write(dup_fd, w_buffer_2, strlen(w_buffer_2));
 	printf("%d\n",b = write_fd);
-	return 10;}
-	else{
-		printf("Fork not created\n");}
 
+	lseek(open_fd, 0,SEEK_SET);//reposition read/write file offset//
 
 	read_fd = read(open_fd, buffer, 5);
 	//perror("read");

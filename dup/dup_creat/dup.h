@@ -18,5 +18,7 @@
 #include <fcntl.h>
 #include <error.h>
 #include <string.h>
+#include <sys/wait.h>
+
 
 #endif  //dup_h
