@@ -1,0 +1,30 @@
+Date = 2020-05-07 Time = 17:35:17 
+Date = 2020-05-07 Time = 17:35:22 
+Date = 2020-05-07 Time = 17:36:27 
+Date = 2020-05-07 Time = 17:36:32 
+Date = 2020-05-07 Time = 17:36:41 
+Date = 2020-05-07 Time = 17:36:46 
+Date = 2020-05-07 Time = 17:36:48 
+Date = 2020-05-07 Time = 17:36:53 
+Date = 2020-05-07 Time = 17:37:13 
+Date = 2020-05-07 Time = 17:37:18 
+Date = 2020-05-07 Time = 17:44:04  sucess
+Date = 2020-05-07 Time = 17:44:09 
+Date = 2020-05-07 Time = 17:45:06  open_fd : sucess
+Date = 2020-05-07 Time = 17:49:18  open_fd : sucess
+Date = 2020-05-07 Time = 17:52:02  open_fd: Error to creat a file
+Date = 2020-05-07 Time = 17:52:45  open_fd: sucess
+Date = 2020-05-07 Time = 17:53:48  open_fd: Error to creat a file
+Date = 2020-05-07 Time = 17:54:08  open_fd: Error to creat a file
+Date = 2020-05-08 Time = 17:33:37  open_fd: sucess
+Date = 2020-05-08 Time = 17:33:39  open_fd: sucess
+process_ID = 19668  2020-05-08 Time = 19:02:41  open_fd: sucess
+process_ID = 19679  2020-05-08 Time = 19:03:25  open_fd: sucess
+2020-05-08: 19:05:22  open_fd: sucess
+2020-05-08  19:06:05  open_fd: sucess
+2020-05-08  19:17:54  mani open_fd: sucess
+2020-05-08  19:18:50  mani open_fd: sucess
+2020-05-08 19:26:44  mani open_fd: sucess
+2020-05-08 19:30:57  mani open_fd: sucess
+2020-05-08 19:30:58  mani open_fd: sucess
+2020-05-08 19:33:18  mani open_fd: sucess
