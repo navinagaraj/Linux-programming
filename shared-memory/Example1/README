@@ -1,1 +1,0 @@
-Read a file content in process1, send file contents to process2 using shared memory and we need to print th content in process2
