@@ -4,6 +4,8 @@
 /* Filename     : readme                      */
 /* Description  : About mlock-munlock         */
 /**********************************************/
-
-
-
+ mlockall() lock part or all of the calling process's virtual address space into RAM, preventing that memory from being paged 
+ to the swap area.
+ munlock() and munlockall() perform the converse operation, unlocking part or all of the calling process's virtual address 
+ space,so that pages in the  speci‐fied virtual address range may once more to be swapped out if required by the kernel memory
+ manager.
