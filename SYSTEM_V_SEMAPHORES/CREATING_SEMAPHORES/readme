@@ -1,0 +1,31 @@
+/**********************************************/
+/* Author       : Naveenkumar N               */
+/* Date         : 25-05-2020                  */
+/* Filename     : readme                      */
+/* Description  : creating semaphores         */
+/**********************************************/
+
+The  semget()  system  call returns the System V semaphore set identifier
+associated with the argument key.  A new set of nsems semaphores is  cre‐
+ated  if key has the value IPC_PRIVATE or if no existing semaphore set is
+associated with key and IPC_CREAT is specified in semflg.
+
+semctl()  performs the control operation specified by cmd on the System V
+semaphore set identified by semid, or on the semnum-th semaphore of  that
+set.  (The semaphores in a set are numbered starting at 0.)
+
+semop() performs operations on selected semaphores in the  set  indicated
+by  semid.  Each of the nsops elements in the array pointed to by sops is
+a structure that specifies an operation to be performed on a single sema‐
+phore. 
+
+In this programming we are using three process. process1 and process2 then 
+write_process. First we going to run thr process1 the we running writeprocess
+then finally we running a process2. In the my_data.txt having some text, That
+same text has printed by process1 then the write_process is write in the 
+my_data.txt file after that process2 will print the updated data in my_data.txt
+file.
+
+
+
+
