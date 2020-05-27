@@ -1,8 +1,0 @@
-/**********************************************/
-/* Author       : Naveenkumar N               */
-/* Date         : 19-05-2020                  */
-/* Filename     : readme                      */
-/* Description  : Explination about program   */
-/**********************************************/
-
-In the process1 creating a shared memory (POSIS shared memory) and process1 going to write a some data in that peritcular a shared memory object should be identifiedby a name(userdefine). Then the second process2 going to read the data from shared memory and printing the data.

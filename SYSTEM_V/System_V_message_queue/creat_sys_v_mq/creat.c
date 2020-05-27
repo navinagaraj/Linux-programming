@@ -31,10 +31,10 @@ int main(){
 	mesg_id = msgget(103,IPC_CREAT|0644);//creating a msgget//
 	perror("msgget");
 	//int msgsnd(int msqid , const void * msgp , size_t msgsz , int msgflg );
-	msgsnd_return = msgsnd(mesg_id, &my_data1, strlen(str1)+1, 0);//sending a msgsnd//
+	msgsnd_return = msgsnd(mesg_id, &my_data1, strlen(str1)+1, 1);//sending a msgsnd//
 	perror("msgsnd");
-	msgsnd_return = msgsnd(mesg_id, &my_data2, strlen(str2)+1, 0);//sending a msgsnd//
+	msgsnd_return = msgsnd(mesg_id, &my_data2, strlen(str2)+1, 2);//sending a msgsnd//
 	perror("msgsnd");
-	msgsnd_return = msgsnd(mesg_id, &my_data3, strlen(str3)+1, 0);//sending a msgsnd//
+	msgsnd_return = msgsnd(mesg_id, &my_data3, strlen(str3)+1, 3);//sending a msgsnd//
 	perror("msgsnd");
 }
