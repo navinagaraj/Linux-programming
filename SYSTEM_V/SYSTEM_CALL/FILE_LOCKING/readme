@@ -1,0 +1,8 @@
+/**********************************************/
+/* Author       : Naveenkumar N               */
+/* Date         : 29-05-2020                  */
+/* Filename     : readme                      */
+/* Description  : file locking                */
+/**********************************************/
+
+We are using two process one is process1 then process2. Process1 is using fcntl - manipulate file descriptor to lock a file. At the same time process2 going to access a same file at the time it has stopped. becous process1 apply  an advisory lock on an open file. So process2 not able to open a file. 
